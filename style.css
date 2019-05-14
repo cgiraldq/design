@@ -1,43 +1,54 @@
 body {
   color: #000;
-  background: gray;
+  background: #80808091;
   margin-top: 0px;
 }
 
 #content {
   height: 100%;
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 
 #logo {
-  background: #fff;
+  background: #8080805e;
   height: 7%;
 }
 
+#logo img{
+  
+  height: 100%;
+}
+
+#menu img{
+  height: 100%;
+    float: right;
+}
+
+  
+
 #menu {
-  background: blue;
-  height: 6%;
-  margin-bottom: 10px;
+     background: #0b0b69;
+    height: 6%;
+    margin-bottom: 10px;
 }
 
 #header_image {
-  background: green;
-  height: 30%;
-}
-
-#header_image {
+     background: #7ef17e94;
+    height: 40%;
   margin-bottom: 25px;
 }
+
+
 #modules {
-  height: 20%;
-  background: none;
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 10px;
+     height: 25%;
+    background: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px 0px 0px;
 }
 #modules2 {
-    height: 10%;
+    height: 20%;
     background: none;
     display: flex;
     justify-content: space-around;
@@ -46,52 +57,54 @@ body {
 
 .module_column3 {
   background: #fff;
-  height: 90%;
+  height: 100%;
   width: 32%;
   float: left;
   margin: 6px;
 }
 
 #module1 {
-  background: blue;
+  background: #fff;
   width: 70%;
   height: 100%;
 }
 #module2 {
-  background: red;
+  background: #fff;
   width: 30%;
   height: 100%;
 }
 
 .image_gallery {
   width: 25%;
-  height: 100%;
+  height: 70%;
 }
 
 #gimage1{
-    background: blue;
+    background: #0caabf;
 }
 
 #gimage2{
-    background: green;
+    background: #18a518;
 }
 
 #gimage3{
-    background: yellow;
+    background: #f9ae40eb;
 }
 
 #gimage4{
-    background: red;
+    background: #f75252eb;
 }
 
 
 #footer {
-  height: 4%;
-  background: #fff;
+     height: 4%;
+    background: #fff;
+    margin-top: -25px;
 }
 
 #navigation{
-background: gray;
-widows: 98%;
-height: 100%;
+       background: #8080804d;
+    width: 88%;
+    height: 80%;
+    margin-top: -10px;
 }
