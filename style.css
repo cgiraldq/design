@@ -89,7 +89,7 @@ body {
 
 .image_gallery {
   width: 25%;
-  height: 70%;
+  height: 55%;
   border: 1px solid #fff;
 }
 
@@ -113,7 +113,7 @@ body {
 #footer {
      height: 5%;
     background: #fff;
-    margin-top: -25px;
+    margin-top: -40px;
     font-size: 12px;
 }
 
@@ -166,6 +166,10 @@ margin: 15px 0 0 20px;
   }
   
   #menu li a:hover {
+    color: #8c2e2e;
+  }
+
+  #navigation div :hover {
     color: #8c2e2e;
   }
 
