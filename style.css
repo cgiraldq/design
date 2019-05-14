@@ -16,45 +16,46 @@ body {
   height: 10%;
 }
 
-#logo img{
-  
+#logo img {
   height: 100%;
 }
 
-#menu img{
+#menu img {
   height: 100%;
-    float: right;
+  float: right;
 }
-
-  
 
 #menu {
-     background: #0b0b69;
-    height: 6%;
-    margin-bottom: 10px;
+  background: #0b0b69;
+  height: 6%;
+  margin-bottom: 10px;
 }
 
 #header_image {
-     background: #7ef17e94;
-    height: 40%;
+  
+  height: 40%;
   margin-bottom: 60px;
   border: 1px solid #fff;
 }
 
+#header_image img {
+  height: 100%;
+  object-fit: cover;
+}
 
 #modules {
-     height: 40%;
-    background: none;
-    display: flex;
-    justify-content: space-around;
-    margin: 20px 0px -20px 0px;
+  height: 40%;
+  background: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0px -20px 0px;
 }
 #modules2 {
-    height: 20%;
-    background: none;
-    display: flex;
-    justify-content: space-around;
-    margin: -20px 0 10px 0;
+  height: 25%;
+  background: none;
+  display: flex;
+  justify-content: space-around;
+  margin: -20px 0 10px 0;
 }
 
 .module_column3 {
@@ -72,13 +73,13 @@ body {
   background: #fff;
   width: 70%;
   height: 100%;
- 
+
   padding: 0 10px;
 }
 
-#module1 p{
-    font-size: 12px;
-    color: #202f20;
+#module1 p {
+  font-size: 12px;
+  color: #202f20;
 }
 
 #module2 {
@@ -93,84 +94,180 @@ body {
   border: 1px solid #fff;
 }
 
-#gimage1{
-    background: #0caabf;
+#gimage1 {
+  background: #0caabf;
 }
 
-#gimage2{
-    background: #18a518;
+#gimage2 {
+  background: #18a518;
 }
 
-#gimage3{
-    background: #f9ae40eb;
+#gimage3 {
+  background: #f9ae40eb;
 }
 
-#gimage4{
-    background: #f75252eb;
+#gimage4 {
+  background: #f75252eb;
 }
-
 
 #footer {
-     height: 5%;
-    background: #fff;
-    margin-top: -40px;
-    font-size: 12px;
+  height: 5%;
+  background: #fff;
+  margin-top: -40px;
+  font-size: 12px;
 }
 
-#footer #copy{
-float: left;
-width: 40%;
-margin: 15px 0 0 20px;
+#footer #copy {
+  float: left;
+  width: 40%;
+  margin: 15px 0 0 20px;
 }
 
-#footer #design{
-    float: right;
-    width: 35%;
-    margin: 15px 35px 0 0px;
-    color: green;
-    text-align: right;
-    }
-    
+#footer #design {
+  float: right;
+  width: 35%;
+  margin: 15px 35px 0 0px;
+  color: green;
+  text-align: right;
+}
 
-#navigation{
-    background: #8080804d;
-    width: 93%;
-    height: 75%;
-    margin-top: -5px;
+#navigation {
+  background: #8080804d;
+  width: 93%;
+  height: 75%;
+  margin-top: -5px;
+}
+
+#navigation div {
+  height: 15%;
+  padding: 20px 0 0 25px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#menu li {
+  float: left;
+}
+
+#menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+#menu li a:hover {
+  color: #8c2e2e;
+}
+
+#navigation div :hover {
+  color: #8c2e2e;
 }
 
 
-#navigation div{
-    height: 15%;
-    padding: 20px 0 0 25px;
+
+
+/*slide style*/
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  /*max-width: 1000px;*/
+  position: relative;
+  margin: auto;
 }
 
- ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-   
-    
-  }
-  
-  #menu li {
-    float: left;
-  }
-  
-  #menu li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 15px 20px;
-    text-decoration: none;
-  }
-  
-  #menu li a:hover {
-    color: #8c2e2e;
-  }
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
 
-  #navigation div :hover {
-    color: #8c2e2e;
-  }
-
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+ 
+  width: auto;
   
+ 
+  color: white;
+ 
+  transition: 0.6s ease;
+
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 7px;
+  width: 7px;
+  margin: 0 2px;
+  background-color: #827878;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #403b3b;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+
+
+
